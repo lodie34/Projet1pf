@@ -21,7 +21,7 @@ li {
 li a {
     display: block;
     color: #666;
-		font-size: 2.5em;
+    font-size: 2.5em;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -37,31 +37,26 @@ li a.active {
     background-color: #4CAF50;
 }
 
+/********************** img ************************/
 img {
-	margin-top: 10px;
-	width: 100%;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.telechargecv {
-	margin-top: 2%;
-	text-align: center;
+/********************** texte ************************/
+.txt {
+  text-align: justify;
+  font-size: 2.2em;
   font-family: KGJuneBug;
 }
 
-.telechargecv a{
-	font-size: 3em;
-	color : #2e2e1f;
-	text-decoration: none;
-}
-
-.telechargecv a:hover{
-	color: #2e2e1f;
-	text-shadow: 3px 3px 9px #d80e4a;
-	text-decoration: none;
-}
-
+/********************** footer ************************/
 footer{
-	margin-top: 5.9%;
+	margin-top: 1.5%;
 	float: right;
 	float: bottom;
 	font-size: 1em;
@@ -85,7 +80,13 @@ footer{
 			font-size: 2em;
 	}
 
-	.telechargecv a{
-		font-size: 3em;
-}
-}
+  /**************************texte**************************/
+  .txt {
+    font-size: 4em;
+    text-align: justify;
+  }
+
+  /********************** img ************************/
+  img {
+    width: 100%;
+  }
