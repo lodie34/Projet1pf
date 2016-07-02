@@ -1,0 +1,85 @@
+/**************************Mise en place d'une police pour la page**************************/
+@font-face {
+  font-family: "KGJuneBug";
+  src: url('KGJuneBug.ttf');
+}
+
+/********************** nav ************************/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+    font-family: KGJuneBug;
+}
+
+li a {
+    display: block;
+    color: #666;
+		font-size: 2.5em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+		color: #2e2e1f;
+		text-shadow: 3px 3px 9px #d80e4a;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.txtcontact {
+  font-family: KGJuneBug;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.blocrs {
+  display: flex;
+  padding-left: 15%;
+}
+
+.rs {
+  text-align: center;
+  width: 25%;
+}
+
+footer{
+	margin-top: 10%;
+	float: right;
+	float: bottom;
+	font-size: 1em;
+}
+
+@media screen and (max-width: 1366px) {
+	body {
+		width: 100%;
+	}
+
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+	li {
+	    float: none;
+	}
+
+	li a {
+			font-size: 2em;
+	}
+
+  .blocrs{
+    display: inline-block;
+  }
+}
