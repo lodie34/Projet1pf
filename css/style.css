@@ -1,0 +1,103 @@
+/*************************reset marge et padding********************************/
+*{
+  margin: 0px ;
+  padding: 0px;
+}
+
+body{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+/********************** nav ************************/
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+		font-size: 2em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+		color: #2e2e1f;
+		text-shadow: 3px 3px 9px #d80e4a;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+img {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.telechargecv {
+	margin-top: 2%;
+	text-align: center;
+}
+
+.telechargecv a{
+	font-size: 3em;
+	color : #2e2e1f;
+	text-decoration: none;
+}
+
+.telechargecv a:hover{
+	color: #2e2e1f;
+	text-shadow: 3px 3px 9px #d80e4a;
+	text-decoration: none;
+}
+
+footer{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+	position: fixed;
+	font-size: 1em;
+}
+
+@media screen and (max-width: 1366px) {
+	body {
+		width: 100%;
+	}
+
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+	li {
+	    float: none;
+	}
+
+	li a {
+			font-size: 3em;
+	}
+
+	.telechargecv a{
+		font-size: 4em;
+  }
+
+  img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .elogdevweb {
+    width: 100%;
+  }
+}
