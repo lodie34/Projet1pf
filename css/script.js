@@ -5,7 +5,7 @@
       });
 
         $(window).resize(function() {
-            var sH = $(window).height(;
+            var sH = $(window).height();
             $('body').css('height', sH + 'px');
         });
     });

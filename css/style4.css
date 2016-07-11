@@ -48,7 +48,7 @@ li a.active {
 
 /********************** img ************************/
 img {
-  width: 30%;
+  width: 25%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -59,7 +59,10 @@ img {
 /********************** texte ************************/
 .txt {
   text-align: justify;
-  font-size: 2.2em;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 2.1em;
   font-family: KGJuneBug;
 }
 
@@ -67,12 +70,12 @@ img {
 footer{
   position: absolute;
   bottom: 8px;
-  right: 16px;
+  right: 45%;
 	position: fixed;
 	font-size: 1em;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1024px) {
 	body {
 		width: 100%;
 	}
@@ -87,7 +90,7 @@ footer{
 	}
 
 	li a {
-			font-size: 4em;
+			font-size: 5em;
 	}
 
   /**************************texte**************************/

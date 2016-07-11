@@ -4,6 +4,10 @@
   padding: 0px;
 }
 
+@font-face {
+  font-family: "KGJuneBug;";
+  src: url('KGJuneBug.ttf');
+}
 
 body{
   margin: 0px !important;
@@ -36,35 +40,60 @@ li a:hover:not(.active) {
 }
 
 li a.active {
-    color: white;
-    background-color: #4CAF50;
+  color: white;
+  background-color: #4CAF50;
 }
 
 .txtcontact {
   font-size: 2.5em;
   text-align: center;
   margin-bottom: 5%;
+  margin-top: 5%;
+  font-family: KGJuneBug;
+}
+
+.txtcontacte {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-family: KGJuneBug;
+}
+
+.txtcontacte a{
+  color: black;
+}
+
+.txtcontacte a:hover:not(.active){
+	color: #2e2e1f;
+	text-shadow: 3px 3px 9px #d80e4a;
+}
+
+.txtcontacte a.active{
+  color: white;
+  background-color: #4CAF50;
 }
 
 .blocrs {
-  display: flex;
-  padding-left: 15%;
-}
+  display: block;
+  justify-content: space-around;
+  margin-left: 37%;
+  }
 
 .rs {
-  text-align: center;
-  width: 25%;
+  width: 10%;
+  padding-right: 2%;
 }
 
 footer{
   position: absolute;
   bottom: 8px;
-  right: 16px;
+  right: 45%;
 	position: fixed;
 	font-size: 1em;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1024px) {
 	body {
 		width: 100%;
 	}
@@ -79,10 +108,15 @@ footer{
 	}
 
 	li a {
-			font-size: 2em;
+    font-size: 5em;
 	}
 
   .blocrs{
-    display: inline-block;
+    display: block;
+    justify-content: center;
+  }
+
+  .rs {
+    width: 25%
   }
 }

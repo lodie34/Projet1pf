@@ -38,9 +38,13 @@ li a.active {
     background-color: #4CAF50;
 }
 
-img {
+#photo {
 	margin-top: 10px;
 	width: 100%;
+}
+
+#photo1 {
+display: none;
 }
 
 .telechargecv {
@@ -63,35 +67,35 @@ img {
 footer{
   position: absolute;
   bottom: 8px;
-  right: 16px;
+  right: 45%;
 	position: fixed;
 	font-size: 1em;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1024px) {
 	body {
 		width: 100%;
 	}
-
-  *{
-    padding: 0px;
-    margin: 0px;
-  }
 
 	li {
 	    float: none;
 	}
 
 	li a {
-			font-size: 3em;
+    font-size: 5em;
 	}
 
 	.telechargecv a{
 		font-size: 4em;
   }
 
-  img {
-    width: 50%;
+  #photo {
+  display: none;
+  }
+
+
+  #photo1{
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -100,4 +104,13 @@ footer{
   .elogdevweb {
     width: 100%;
   }
+
+  footer{
+    position: absolute;
+    bottom: 8px;
+    right: 60%;
+  	position: fixed;
+  	font-size: 1em;
+  }
+
 }
